@@ -1,0 +1,51 @@
+1. A "computer system" is a set of different layers with each working on the one below it.
+
+2. Some parts of the computer system are the CPU (control porcessing unit), the digital logic
+    (hardware) and the control layer.
+
+3. The difference between a compiled language and an interpreted language is for an interpreted
+    language an interpretor is needed to run and excecute the program, and in the compiled language
+    the program is directly translated.
+
+4. No, C is not a compiled language becuase we have to use the gcc (or some other compiler) in 
+    order to compile it.
+
+5. Dennis Ritchie invented the C language while working at Bell labs. Found at 
+    https://cs.brown.edu/~adf/programming_languages.html.
+
+6. C has been in use since it was created in 1972. Found at 
+    https://cs.brown.edu/~adf/programming_languages.html.
+
+7. Yes, a compiler is a translator because it turns the code from source code into assembly code.
+
+8. Yes, an assembler is a translator because it turns the assembly code in to machine code.
+
+9. ls is the command to list out the contents of a directory on a mac.
+
+10. The C function atof() converts a string into a double and returns that value. Found at 
+    https://www.geeksforgeeks.org/atol-atoll-and-atof-functions-in-c-c/.
+
+11. The bottom two layers of a computer system are digital logic and the control layer. The digital
+    logic layer is the hardware that all the operators run on and the control layer contains the 
+    microcode that interprets the layer below it.
+
+12. The three steps of the Von Neumann architecture are the CPU, memory and input/output.
+
+13. An ALU is the part of the CPU that performs the computations done on integers.
+
+14. A register is a special (fast) type of memory in the CPU where bit patterns get stored, 
+    manipulated and operated on.
+
+15. One difference between applications software and systems software is that apllications is 
+    written for people and systems is written for computers.
+
+16. No, the commands cmp, rdi and rsi are assembly language, not machine language.
+
+17. There are 3 buses in the system bus: the data bus, the address bus and the control bus.
+
+18. 151 is the decimal value of the binary number 10010111.
+
+19. 255 is the decimal value of the binary number 11111111.
+
+20. The largest unsigned integer value that will fit into 16 bits is 2^16 - 1 or 65,535. Found at
+    https://en.wikipedia.org/wiki/16-bit_computing#:~:text=The%20signed%20range%20of%20integer.

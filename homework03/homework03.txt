@@ -1,0 +1,47 @@
+1. 0xFAC3 to binary -> 1111 1010 1100 0011
+2. 0xFAC3 to unsigned decimal -> 64195
+3. 0xFAC3 to signed decimal -> -5693
+4. 0x0064 to binary -> 0000 0000 0110 0100
+5. 0x0064 to unsigned decimal -> 100
+6. 0x0064 to signed decimal -> 100
+7. 0x8000 to binary -> 1000 0000 0000 0000
+8. 0x8000 to unsigned decimal -> 32768
+9. 0x8000 to signed decimal -> -32768
+10. 8000 decimal to hex -> 1F40
+11. 1F40
+12. FFF5
+13. 8033
+14. 1011 1101 binary to hex -> BD
+15. 1011 1101 0000 0001 binary to unsigned decimal -> 48385
+16. 1011 1101 0000 0001 binary to signed decimal -> -17151
+17. -524,288
+18. 524,287
+19. 3511 + 4FFC = 850D
+20. 3511 + 4FFC = FFFF
+21. No
+22. Yes
+23. 6159 + F702 = 585B
+24. 6159 + F702 = FFFF
+25. Yes
+26. No
+27. EEEE + C00C = AEFA
+28. EEEE + C00C = FFFF
+29. Yes
+30. Yes
+31. 0100 1111 1111 0001 or 4FF1
+32. 1101 1100 1100 1110 or DCCE
+33. 1000 0000 0000 0000 or 8000
+34. 0000 0000 0000 1100 1101 0110 0100 0110 or 000CD646
+35. 7F7FFFFF
+36. 80000001
+37. 80800001
+38. 00000001
+39. EBA40000
+40. C2C01000
+41. 7F800000
+42. F8280000
+43. CB800000
+44. 240
+45. -7.96875
+46. -100
+

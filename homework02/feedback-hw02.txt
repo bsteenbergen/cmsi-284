@@ -1,0 +1,60 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 284 Section 02 Spring 2021
+=================================
+
+BOOK PROBLEMS
+   Question 01          1/1 pt.
+   Question 02          1/1 pt.
+   Question 03          1/1 pt.
+   Question 04        0.5/1 pt.
+   Question 05          1/1 pt.
+   Question 06          1/1 pt.
+   Question 07          1/1 pt.
+   Question 08          1/1 pt.
+   Question 09          1/1 pt.
+   Question 10          1/1 pt.
+   Question 11          1/1 pt.
+   Question 12          0/1 pt.
+   Question 13          1/1 pt.
+   Question 14          1/1 pt.
+   Question 15          1/1 pt.
+   Question 16          1/1 pt.
+   Question 17          1/1 pt.
+   Question 18          1/1 pt.
+   Question 19          1/1 pt.
+   Question 20          1/1 pt.
+
+Total possible points: 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 18.5/20 which is 92.50% which is an A-minus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Good work, just a couple of comments:
+
+on #4, the term "compiled language" means you have to run a compiler on the
+code.  The way you've worded your answer is ambiguous, but is partly correct
+so you earn 1/2 credit.
+
+on #7, remember the clarification that the gcc compiler creates runnable
+programs in machine code and that the assembly code creation is an *option*
+
+on #12, the three stages are fetch, decode, and execute.
+
+Otherwise, very nice job!
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of 5 points = 5.00 points
+   homework02 ~  92.50% of 5 points = 4.63 points
+                              total:  9.63 out of 10.0 = 96.25%
+                                 which is an A
+
+Keep up the good work!

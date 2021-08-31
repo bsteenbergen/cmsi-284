@@ -1,0 +1,71 @@
+
+Evaluation Criteria ~ homework04
+CMSI 284 Section 02 Spring 2021
+=================================
+
+LOGIC DESIGN
+   Logic Question 1a         10/10
+   Logic Question 1b          5/ 5
+   Logic Question 2           0/10
+
+REGISTER OPERATIONS
+   Register clear even        2/ 2
+   Register set last 3        2/ 2
+   Reg./8 remainder           2/ 2
+   Reg. set to -1             2/ 2
+   Reg. invert 2 MSBs         2/ 2
+   Register computation       2/ 2
+
+STANLEY/PENGUIN ASSEMBLY
+   Q4 - program 1a           11/11
+   Q5 - program 1b           11/11
+   Q6 - GCD prog.             9/11
+   Q7 - swap frag             5/ 5
+   Q8 - jmp to addr           5/ 5
+
+REGISTER INVESTIGATION
+   Q9a - high level expl.     5/ 5
+   Q9b - Why?                 5/ 5
+
+
+Total possible points        90 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 87.0/90.0 which is 96.67% which is an A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work here!
+
+First thing, I don't see any graphic as mentioned in your problem 2 answer,
+but I'm sure that's just an oversight.  Plop one in there and I'll re-do the
+evaluation for that.
+
+Gentle reminder: the instruction is "JMP" not "JUMP" even though I usually
+*pronounce* it as if it were the full spelling....
+
+On problem 5, on line 4 since you are writing to port 0x08, the instruction
+should be "30000008" not "30000001"
+
+ON problem 6, you have the right idea for this, but there are a couple of
+things missing.  At "top:" after you load b you should check if it's zero
+and jump to "out:", which should then load the value of "a:" to send to the
+port; so swap the instructions on lines 8 and 9.  The rest looks pretty good
+but double check to make sure you are following the algorithm.
+
+Everything else looks fine.  GREAT WORK!
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  92.50% of  5 points =  4.63 points
+   homework03 ~  96.74% of  5 points =  4.84 points
+   homework04 ~  86.67% of  5 points =  4.83 points
+                                total: 19.30 out of 20.0 = 96.50%
+                                which is an A
+
+Keep up the good work!

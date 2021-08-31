@@ -1,0 +1,67 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 284 Section 01 Spring 2021
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      2 points earned
+   runs  tests    [10 pts.]      7 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      3 points earned
+   32-bit tests   [ 5 pts.]      5 points earned
+   64-bit tests   [ 5 pts.]      5 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      3 points earned
+   runs  tests    [10 pts.]      9 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]     15 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]      8 points earned
+
+             Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 87/100 which is 87.00% which is a B-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work on this assignment.  Just a couple of notes:
+
+First thing is, the way you have done your input from the user, there is no
+error checking.
+
+On problem 1, you don't error check the entered value ~ "asdf" still gets
+converted somehow.
+
+On problem 2, same thing.
+
+On problem 3, this works but because there is no error checking, when there
+isn't an "N" specified, or if it is a letter like "a", there is a *HUGE*
+amount of extra numbers that shows up in the output....
+
+On problem 4, this works perfectly!
+
+On problem 5, it works, but no command line argument verification.
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  92.50% of  5 points =  4.63 points
+   homework03 ~  96.74% of  5 points =  4.84 points
+   homework04 ~  86.67% of  5 points =  4.33 points
+   homework05 ~  87.00% of 10 points =  8.70 points
+                                total: 27.50 out of 30.00 = 91.67%
+                                which is an A-minus
+
+Keep up the good work, one more homework to go!

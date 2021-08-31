@@ -1,0 +1,82 @@
+1. X := A or (B and C)
+   Y := not-A or C
+
+   X := (A NAND A) NAND (B NAND C)
+   Y := (A NAND A) NAND (C NAND C)
+
+2. (See attached)
+
+3. a. AND with 0xAAAAAAAA
+   b. OR with 0x00000007
+   c. AND with 0x00000007
+   d. OR with 0xFFFFFFFF
+   e. XOR with 0xC0000000
+   f. AND with 0xFFFFFFFF
+
+4.        JMP   start
+   val:   0
+   limit: 256
+   start: LOAD  val
+          WRITE 8
+          ADD   1
+          STORE val
+          SUB   limit
+          JLZ   start
+   end:   JUMP  end
+
+5. C0000003
+   00000000
+   00000100
+   00000000
+   30000001
+   40000001
+   10000000
+   50000002
+   E0000003
+   C0000009
+
+6.
+            JMP   start
+   a:       0
+   b:       0
+   c:       0
+   start:   READ  100
+            STORE a
+            READ  100
+            STORE b 
+            JZ    out
+    top:    LOAD  b  
+            STORE b
+            LOAD  a
+            MOD   b
+            STORE c
+            JMP   top
+            ADD   c
+    out:    WRITE 200
+    end:    JUMP  end
+
+7. 
+         JMP    start
+temp:    0
+var:     0
+start:   STORE  temp
+         LOAD   30AA
+         STORE  var
+         LOAD   temp
+         STORE  30AA
+         LOAD   var
+8.
+            JMP    start
+start:      JGZ    837BBE1
+            JZ     837BBE1
+
+9.
+    1. This sequence of instructions will simply switch the starting values of r8 and r9, 
+    so by the end the value of r9 will be r8's original value and the value of r8 will be 
+    r9's orginal value. 
+    2. When we XOR the two original values, we create a new value that is neither of the two's 
+    original values and place that into r8. Then since we XOR one of the variables original values 
+    with the new value in r8, we get r8's original value that we store in r9. Lastly because we XOR 
+    r8's original value with it's new value, we get r9's original value stored in r8.
+
+10. Hello!
